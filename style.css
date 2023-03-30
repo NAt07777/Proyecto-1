@@ -1,0 +1,95 @@
+body {
+    background-color: #F8EDE3 ;
+}
+header {
+    background-color: #f5dcbb;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.titulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    font-weight: bolder;
+    margin: 0 4px;
+}
+
+.subtitulo {
+    font-family: 'Courgette', cursive;
+    margin: 10px;
+}
+
+.mapa {
+    right: 30%;
+}
+
+/*Barra de navegación*/
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D0B8A8;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.navbar a:hover {
+    background-color:#85586F;
+    color: #D0B8A8;
+}
+
+
+.navbar a.active {
+    background-color: #D0B8A8;
+}
+
+
+.navbar .icon {
+    display: none;
+}
+
+
+.foto-principal {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-index {
+    width: 80%;
+    border-radius: 10px; 
+}
+
+.contenido-principal {
+    font-family: 'Alkatra', cursive;
+    font-size: 20px;
+}
+
+/*Formulario*/
+
+.formulario .input {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
